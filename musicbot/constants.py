@@ -33,7 +33,7 @@ except (subprocess.SubprocessError, OSError, ValueError) as e:
 # constant string exempt from i18n
 DEFAULT_FOOTER_TEXT: str = f"小兔兔的音乐机器人"
 DEFAULT_BOT_NAME: str = "Sailormoon"
-DEFAULT_BOT_ICON: str = "https://imgur.com/vm5BQsj"
+DEFAULT_BOT_ICON: str = "https://imgur.com/vm5BQsj.png"
 DEFAULT_OWNER_GROUP_NAME: str = "Owner (auto)"
 DEFAULT_PERMS_GROUP_NAME: str = "Default"
 # This UA string is used by MusicBot only for the aiohttp session.
