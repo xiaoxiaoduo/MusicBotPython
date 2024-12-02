@@ -2818,7 +2818,7 @@ class MusicBot(discord.Client):
                 + self.str.get(
                     "cmd-help-response",
                     "For information about a particular command, run {example_cmd}\n"
-                    "For further help, see https://just-some-bots.github.io/MusicBot/",
+                    "For further help, 来找兔兔吧♥",
                 ).format(
                     example_cmd=(
                         f"{prefix}`help [command]`"
@@ -2835,7 +2835,7 @@ class MusicBot(discord.Client):
                 + self.str.get(
                     "cmd-help-response",
                     "For information about a particular command, run {example_cmd}\n"
-                    "For further help, see https://just-some-bots.github.io/MusicBot/",
+                    "For further help, 来找兔兔吧♥",
                 ).format(
                     example_cmd=(
                         f"{prefix}`help [command]`"
