@@ -2564,7 +2564,7 @@ class MusicBot(discord.Client):
         e = discord.Embed()
         e.colour = discord.Colour(7506394)
         e.set_footer(
-            text=self.config.footer_text, icon_url="https://i.imgur.com/gFHBoZA.png"
+            text=self.config.footer_text, icon_url="https://imgur.com/vm5BQsj.png"
         )
 
         # TODO: handle this part when EmbedResponse get handled.
