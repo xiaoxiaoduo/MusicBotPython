@@ -31,9 +31,9 @@ except (subprocess.SubprocessError, OSError, ValueError) as e:
     VERSION = "version_unknown"
 
 # constant string exempt from i18n
-DEFAULT_FOOTER_TEXT: str = f"Just-Some-Bots/MusicBot ({VERSION})"
-DEFAULT_BOT_NAME: str = "MusicBot"
-DEFAULT_BOT_ICON: str = "https://i.imgur.com/gFHBoZA.png"
+DEFAULT_FOOTER_TEXT: str = f"小兔兔的音乐机器人"
+DEFAULT_BOT_NAME: str = "Sailormoon"
+DEFAULT_BOT_ICON: str = "https://imgur.com/vm5BQsj"
 DEFAULT_OWNER_GROUP_NAME: str = "Owner (auto)"
 DEFAULT_PERMS_GROUP_NAME: str = "Default"
 # This UA string is used by MusicBot only for the aiohttp session.
@@ -45,7 +45,7 @@ MUSICBOT_USER_AGENT_AIOHTTP: str = f"MusicBot/{VERSION}"
 # File path constants
 DEFAULT_OPTIONS_FILE: str = "config/options.ini"
 DEFAULT_PERMS_FILE: str = "config/permissions.ini"
-DEFAULT_I18N_FILE: str = "config/i18n/en.json"
+DEFAULT_I18N_FILE: str = "config/i18n/zh.json"
 DEFAULT_COMMAND_ALIAS_FILE: str = "config/aliases.json"
 DEFAULT_USER_BLOCKLIST_FILE: str = "config/blocklist_users.txt"
 DEFAULT_SONG_BLOCKLIST_FILE: str = "config/blocklist_songs.txt"
